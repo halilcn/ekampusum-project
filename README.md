@@ -32,4 +32,3 @@
 [Daha Dazla Görsel İçin](https://github.com/1halilcan/ekampusum-project/blob/main/project_images)
 
 
-
