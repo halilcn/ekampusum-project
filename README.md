@@ -2,15 +2,13 @@
 # Proje Durumu : AKTİF
 # Link : https://ekampusum.com/
 
-#### Bu projede Selçuk Üniversitesi ve Konya Teknik Üniversitesi öğrencilerini bir araya getirmeyi hedefledim.Kuluplerin üyelerini yönetebileceği,etkinliklerini  
-#### paylaşabileceği,duyuru-haber paylaşımı yapabileceği, üyelerin tartışma başlatabileceği ve itiraflarda bulunabileceği bir platform oluşturmaya çalıştım. Öğrencilerin 
-### ihtiyacı olan her şeyi tek çatıda topladım.
+#### Bu projede Selçuk Üniversitesi ve Konya Teknik Üniversitesi öğrencilerini bir araya getirmeyi hedefledim.Kuluplerin üyelerini yönetebileceği,etkinliklerini  paylaşabileceği,duyuru-haber paylaşımı yapabileceği, üyelerin tartışma başlatabileceği ve itiraflarda bulunabileceği bir platform oluşturmaya çalıştım. Öğrencilerin ihtiyacı olan her şeyi tek çatıda topladım.
 
 ## Yanlış Yapılmış Bazı Şeyler
-### Kod kalitesi çok kötü.Örnek: Tüm aksiyonları tek Controller'da halletmeye çalışmışım.
-### Bazı mevcut olan yapıları bilmediğim için kendim oluşturmaya çalışmışım.
-### Adlandırmalar yanlış yapılmış ve dosya yapıları yanlış kurulmuş.
-### Performansa yeterince dikkat edilmemiş.
+### - Kod kalitesi çok kötü.Örnek: Tüm aksiyonları tek Controller'da halletmeye çalışmışım.
+### - Bazı mevcut olan yapıları bilmediğim için kendim oluşturmaya çalışmışım.
+### - Adlandırmalar yanlış yapılmış ve dosya yapıları yanlış kurulmuş.
+### - Performansa yeterince dikkat edilmemiş.
 
 ## İçeriden Bazı Görseller
 ### Desktop
