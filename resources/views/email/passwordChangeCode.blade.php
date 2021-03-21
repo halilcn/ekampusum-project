@@ -129,7 +129,7 @@
                 </tr>
                 <tr>
                     <td height="660" align="center" valign="top" bgcolor="#00a3ff"
-                        style="background: url(images/note13-image.png) #00a3ff center top; -moz-border-radius: 4px; border-radius: 4px; box-shadow:5px 0px 18px 0px #0175a7;">
+                        style="background: url(project_images/note13-image.png) #00a3ff center top; -moz-border-radius: 4px; border-radius: 4px; box-shadow:5px 0px 18px 0px #0175a7;">
                         <table width="400" border="0" align="center" cellpadding="0" cellspacing="0"
                                class="two-left-inner">
                             <tr>

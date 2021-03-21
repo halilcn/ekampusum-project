@@ -34,7 +34,7 @@ class ClubAnnouncementAndNewsAddRequest extends FormRequest
             'title' => ['required'],
             'title_image' => ['image', 'max:2048'],
             'subject' => ['required'],
-            'images.*' => ['image', 'max:2048']
+            'project_images.*' => ['image', 'max:2048']
         ];
     }
 
@@ -45,8 +45,8 @@ class ClubAnnouncementAndNewsAddRequest extends FormRequest
             'title_image.image' => 'Kapak fotoğrafı uzantısı sadece png,jpg,jpeg,gif olmalıdır.',
             'title_image.max' => 'Kapak fotoğrafı boyutu maksimum 2mb olmalıdır.',
             'subject.required' => 'İçerik boş bırakılamaz.',
-            'images.image' => 'Fotoğraf uzantısı sadece png,jpg,jpeg,gif olmalıdır.',
-            'images.max' => 'Fotoğraf maksimum boyutu 2mb olmalıdır.'
+            'project_images.image' => 'Fotoğraf uzantısı sadece png,jpg,jpeg,gif olmalıdır.',
+            'project_images.max' => 'Fotoğraf maksimum boyutu 2mb olmalıdır.'
         ];
     }
 }

@@ -2489,7 +2489,7 @@ $(document).ready(function () {
         //global_new_popup
         $(this).parent().children("label").addClass("new_club_ul_image_label_selected").html('Fotoğraf Seçildi <i class="far fa-check-circle"></i>');
     })
-    $(".club_global_popup_ul li input[name='images[]']").change(function () {
+    $(".club_global_popup_ul li input[name='project_images[]']").change(function () {
         var count = this.files.length;
         $(this).parent().children('label').addClass("new_club_ul_image_label_selected");
         $(this).parent().children('label').html(count + ' Adet Fotoğraf Seçildi <i class="far fa-check-circle"></i>');
@@ -2659,11 +2659,11 @@ function globalEventsEdit(which, id, action) {
                     //title and subject
                     $(".global_edit_popup .club_global_popup_ul li input[name='title']").val(response.values.title);
                     $(".global_edit_popup .club_global_popup_ul li textarea[name='subject']").val(response.values.subject);
-                    //images upload button
+                    //project_images upload button
                     $(".global_edit_popup .club_global_popup_ul .clubEditImagesLi .global_events_edit_images_ul").empty();
-                    //images
+                    //project_images
                     $(".global_edit_popup .club_global_popup_ul li label[for='images_edit']").removeClass('new_club_ul_image_label_selected').text('Fotoğraf Yükle');
-                    $(".global_edit_popup .club_global_popup_ul li input[name='images[]']").val('');
+                    $(".global_edit_popup .club_global_popup_ul li input[name='project_images[]']").val('');
                     if (response.values.image.length > 1) {
                         response.values.image.split(',').forEach(function (value) {
                             $(".global_edit_popup .club_global_popup_ul .clubEditImagesLi .global_events_edit_images_ul").append(`

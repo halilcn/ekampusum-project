@@ -1561,13 +1561,13 @@ class homeController extends Controller
                     $titleImage->resize(500, 333)->save(public_path('./img/announcements_and_news/' . $titleImageName));
                 }
 
-                //images input
+                //project_images input
                 $imagesName = 0;
-                if ($request->file('images')) {
+                if ($request->file('project_images')) {
                     $imageName = null;
                     $count = 0;
-                    foreach ($request->file('images') as $image) {
-                        $imageFile = $request->file('images')[$count];
+                    foreach ($request->file('project_images') as $image) {
+                        $imageFile = $request->file('project_images')[$count];
                         $imageName = rand() . '.' . $imageFile->getClientOriginalExtension();
                         $image = Image::make($imageFile);
                         $image->resize(500, 333)->save(public_path('./img/announcements_and_news/' . $imageName));
@@ -1778,9 +1778,9 @@ class homeController extends Controller
                 }
 
                 //New Image Add
-                if ($request->hasFile('images')) {
+                if ($request->hasFile('project_images')) {
                     $newImages = collect();
-                    foreach ($request->file('images') as $image) {
+                    foreach ($request->file('project_images') as $image) {
                         $images = Image::make($image);
                         $images->resize(500, 333);
                         $imagesName = rand() . '.' . $image->getClientOriginalExtension();
@@ -1859,13 +1859,13 @@ class homeController extends Controller
                     $title_image->resize(500, 333)->save(public_path('./img/events/' . $title_image_name));
                 }
 
-                //images input
+                //project_images input
                 $images_name = 0;
-                if ($request->file('images')) {
+                if ($request->file('project_images')) {
                     $images_name = null;
                     $count = 0;
-                    foreach ($request->file('images') as $image) {
-                        $image_file = $request->file('images')[$count];
+                    foreach ($request->file('project_images') as $image) {
+                        $image_file = $request->file('project_images')[$count];
                         $image_name = Str::random() . '.' . $image_file->getClientOriginalExtension();
                         $image = Image::make($image_file);
                         $image->resize(500, 333)->save(public_path('./img/events/' . $image_name));
@@ -2117,9 +2117,9 @@ class homeController extends Controller
                 }
 
                 //New Image Add
-                if ($request->hasFile('images')) {
+                if ($request->hasFile('project_images')) {
                     $newImages = collect();
-                    foreach ($request->file('images') as $image) {
+                    foreach ($request->file('project_images') as $image) {
                         $images = Image::make($image);
                         $imagesName = rand() . '.' . $image->getClientOriginalExtension();
                         $images->resize(500, 333)->save(public_path('./img/events/' . $imagesName));
