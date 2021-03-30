@@ -10,7 +10,7 @@
 ### - Adlandırmaları yanlış belirlemişim ve dosya yapılarını yanlış kurmuşum.
 ### - Performansa yeterince dikkat etmemişim.
 
-## İçeriden Bazı Görseller
+## İçeriden Bazı Görüntüler
 ### Desktop
 ![alt text](https://github.com/1halilcan/ekampusum-project/blob/main/project_images/ekampusum_desktop/5.PNG) 
 ![alt text](https://github.com/1halilcan/ekampusum-project/blob/main/project_images/ekampusum_desktop/1.PNG) 
