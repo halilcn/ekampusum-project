@@ -1,6 +1,4 @@
 ## ekampusum
-# Proje Durumu : AKTİF
-# Link : https://ekampusum.com/
 
 #### Bu projede Selçuk Üniversitesi ve Konya Teknik Üniversitesi öğrencilerini bir araya getirmeyi hedefledim.Kulüplerin  üyelerini yönetebileceği,etkinliklerini  paylaşabileceği,duyuru-haber paylaşımı yapabileceği, üyelerin tartışma başlatabileceği ve itiraflarda bulunabileceği bir platform oluşturmaya çalıştım. Öğrencilerin ihtiyacı olan her şeyi tek çatıda topladım.
 
